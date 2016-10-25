@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Statics CDN with CDN.com.de</title>
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+<link rel="stylesheet" href="https://cdn.com.de/earlyaccess/notosanssc.css" />
+<link rel="icon" type="image/png" href="https://1.bucket.gslb.kuai.us/images/Ymuo.png">
+</head>
+<body>
+<style>
+body,h1,h2,h3,h4,p,code,li,ul,a{font-family: "Noto Sans SC", "Segoe UI", "Lucida Grande", Helvetica, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans","wenquanyi micro hei","Hiragino Sans GB", "Hiragino Sans GB W3", Arial, sans-serif;}
+a:hover{text-decoration: none;}
+.input-group-addon,.form-control,.btn,.btn-group,.alert{border-radius:0;}
+.login {max-width:600px;margin:260px auto 50px auto;}
+.login h2{margin-bottom: 260px;margin-right:-20px;color: #000;text-align:right;font-size: 100px;} .login h2 a{color: #000;}
+.input-group {margin-bottom: 10px;}
+.background-white {background-color: #f5f5f5;margin: -20px;padding: 20px;}
+textarea {margin-bottom: 20px;}
+@media screen and (max-width:450px){.login{margin:100px 10px 10px 10px;}.login h2{margin:0 0 30px 0;text-align:center;font-size:35px;}}
+</style>
+
+<div class="login">
+
+<h2><i class="fa fa-connectdevelop" aria-hidden="true"></i> Statics CDN</h2>
+
+<div class="background-white">
+
+    <h3><i class="fa fa-font" aria-hidden="true"></i> Google Fonts 反代</h3>
+    <div class="input-group">
+        <span class="input-group-addon">将 fonts.googleapis.com 更换为</span>
+        <input type="text" class="form-control" value="cdn.com.de" onmouseover="this.focus()" onfocus="this.select()">
+    </div>
+    <p>
+        例如：<code>https://cdn.com.de/css?family=Roboto</code><br />
+        例如：<code>https://cdn.com.de/icon?family=Material+Icons</code><br />
+        例如：<code>https://cdn.com.de/earlyaccess/notosanssc.css</code>
+    </p>
+
+    <hr>
+
+    <h3><i class="fa fa-qrcode" aria-hidden="true"></i> Google Chart 反代</h3>
+    <div class="input-group">
+        <span class="input-group-addon">将 chart.googleapis.com 更换为</span>
+        <input type="text" class="form-control" value="cdn.com.de" onmouseover="this.focus()" onfocus="this.select()">
+    </div>
+    <p>例如：<code>https://cdn.com.de/chart?cht=qr&chs=200x200&chl=https://cdn.com.de</code></p>
+
+    <hr>
+
+    <h3><i class="fa fa-file-text" aria-hidden="true"></i> Google Ajax 反代</h3>
+    <div class="input-group">
+        <span class="input-group-addon">将 ajax.googleapis.com 更换为</span>
+        <input type="text" class="form-control" value="cdn.com.de" onmouseover="this.focus()" onfocus="this.select()">
+    </div>
+    <p>例如：<code>https://cdn.com.de/ajax/libs/jquery/2.2.2/jquery.min.js</code></p>
+
+    <hr>
+
+    <h3><i class="fa fa-file-image-o" aria-hidden="true"></i> Gravatar 反代</h3>
+    <div class="input-group">
+        <span class="input-group-addon">将 en.gravatar.com 更换为</span>
+        <input type="text" class="form-control" value="cdn.com.de" onmouseover="this.focus()" onfocus="this.select()">
+    </div>
+    <p>例如：<code>https://cdn.com.de/avatar/5c1963a15ab57f2af68e9ecf6693fbac</code></p>
+
+    <hr>
+
+    <h3><i class="fa fa-dropbox" aria-hidden="true"></i> Dropbox Public Link 反代</h3>
+    <div class="input-group">
+        <span class="input-group-addon">将 dl.dropboxusercontent.com 更换为</span>
+        <input type="text" class="form-control" value="cdn.com.de" onmouseover="this.focus()" onfocus="this.select()">
+    </div>
+    <p>例如：<code>https://cdn.com.de/u/66205879/6c3e6b13gw1eu60sto2zbg20b404k1kx.gif</code></p>
+
+    <hr>
+
+    <h3><i class="fa fa-commenting" aria-hidden="true"></i> 留言反馈</h3>
+
+    <div class="ds-thread" data-thread-key="cdn" data-title="Static CDN" data-url="https://cdn.com.de/"></div>
+
+    <center><br>&copy; 2016 <a href="https://yjk.im" target="_blank">YJK</a>, All Rights Reserved</center>
+
+
+</div></div>
+</body>
+
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"yjk"};
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//cdn.com.de/ds.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0]
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+    </script>
+</html>
